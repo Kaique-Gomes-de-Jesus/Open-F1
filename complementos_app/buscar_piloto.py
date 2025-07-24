@@ -1,14 +1,6 @@
 import streamlit as st
 import requests
 
-
-'''
-Identificação
-Dev: Kaique Gomes de Jesus
-RA: 24271635
-Data: 02/06/2025
-'''
-
 #Função 1 - Buscar informações do piloto
 def buscar_piloto_por_numero(numero_piloto):
     url = f"https://api.openf1.org/v1/drivers?driver_number={numero_piloto}&session_key=9158"

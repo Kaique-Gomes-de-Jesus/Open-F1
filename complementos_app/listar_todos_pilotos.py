@@ -1,11 +1,5 @@
 import streamlit as st
 import requests
-'''
-Identificação
-Dev: Kaique Gomes de Jesus
-RA: 24271635
-Data: 02/06/2025
-'''
 
 #Função 3 - Listar todos os pilotos
 def listar_todos_pilotos():

@@ -1,12 +1,6 @@
 import streamlit as st
 import requests
 import json
-'''
-Identificação
-Dev: Kaique Gomes de Jesus
-RA: 24271635
-Data: 02/06/2025
-'''
 
 #Função 4 - Salvar piloto
 def salvar_piloto(numero_piloto):

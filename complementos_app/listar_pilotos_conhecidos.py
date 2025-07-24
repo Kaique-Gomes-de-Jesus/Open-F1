@@ -1,12 +1,5 @@
 import streamlit as st
 
-'''
-Identificação
-Dev: Kaique Gomes de Jesus
-RA: 24271635
-Data: 02/06/2025
-'''
-
 #Função 2 - Mostrar pilotos conhecidos
 def listar_pilotos_conhecidos():
     st.subheader("Pilotos e seus números conhecidos")

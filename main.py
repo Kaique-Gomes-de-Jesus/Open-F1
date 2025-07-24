@@ -1,10 +1,4 @@
 
-'''
-Identificação
-Dev: Kaique Gomes de Jesus
-RA: 24271635
-Data: 02/06/2025
-'''
 import streamlit as st
 import requests
 from complementos_app.buscar_piloto import buscar_piloto_por_numero
