@@ -21,7 +21,7 @@ def salvar_piloto(numero_piloto):
         if dados:
             piloto = dados[0]
             nome_arquivo = f"piloto{numero_piloto}.json"
-            with open(nome_arquivo, "w", encoding="utf8") as arquivo:
+            with open(f".\pilotos\{nome_arquivo}", "w", encoding="utf8") as arquivo:
                 json.dump(piloto, arquivo, indent=4, ensure_ascii=False)
             st.success(f"Dados do piloto salvo.")
         else:

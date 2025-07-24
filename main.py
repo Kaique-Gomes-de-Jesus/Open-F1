@@ -7,10 +7,10 @@ Data: 02/06/2025
 '''
 import streamlit as st
 import requests
-from buscar_piloto import buscar_piloto_por_numero
-from listar_pilotos_conhecidos import listar_pilotos_conhecidos
-from listar_todos_pilotos import listar_todos_pilotos
-from salvar_pilotos import salvar_piloto
+from complementos_app.buscar_piloto import buscar_piloto_por_numero
+from complementos_app.listar_pilotos_conhecidos import listar_pilotos_conhecidos
+from complementos_app.listar_todos_pilotos import listar_todos_pilotos
+from complementos_app.salvar_pilotos import salvar_piloto
 
 st.title("OpenF1 API - Consulta de Pilotos.")
 #Interface streamlit
